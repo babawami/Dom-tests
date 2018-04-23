@@ -15,7 +15,7 @@ dispalyValue.calulateValue ('call');
 dispalyValue.calulateValue ('sms');
 assert.equal(dispalyValue.smsValue(),2.25);
   });
-  it("input sms string and call string it should return total value ", function(){
+  it("add sms total and calls total it should return total value ", function(){
 var dispalyValue = totalVar();
 dispalyValue.calulateValue('sms');
 dispalyValue.calulateValue ('sms');
